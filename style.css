@@ -95,7 +95,10 @@ body {
       transform: scale(0.7);
       transition: 0.2s;
       outline: 0;
-      outline-offset: 0; }
+      outline-offset: 0;
+      -moz-transform: scale(0.7);
+      -webkit-transform: scale(0.7);
+      -o-transform: scale(0.7); }
 
 .rezults {
   margin: 0 auto;
