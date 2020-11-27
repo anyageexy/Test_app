@@ -86,12 +86,16 @@ body {
     border: none;
     text-transform: uppercase; }
     .action__user .button__action:hover {
+      outline: 0;
+      outline-offset: 0;
       cursor: pointer;
       transition: 0.4s;
       box-shadow: 0 0 0 2px #ad8ca5; }
     .action__user .button__action:active {
       transform: scale(0.7);
-      transition: 0.2s; }
+      transition: 0.2s;
+      outline: 0;
+      outline-offset: 0; }
 
 .rezults {
   margin: 0 auto;
