@@ -92,6 +92,7 @@ body {
       transition: 0.4s;
       box-shadow: 0 0 0 2px #ad8ca5; }
     .action__user .button__action:active {
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
       -moz-outline: none;
       -webkit-outline: none;
       -o-outline: none;

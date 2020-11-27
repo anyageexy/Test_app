@@ -108,6 +108,7 @@ body{
             box-shadow: 0 0 0 2px #ad8ca5;
         }
         &:active{
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
             -moz-outline: none;
             -webkit-outline: none;
             -o-outline: none;
