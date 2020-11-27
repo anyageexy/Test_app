@@ -86,6 +86,7 @@ body{
     margin: 0 auto;
     
     .button__action{
+        
         user-select: none;
         text-decoration: none;
         outline: none !important;
@@ -107,6 +108,9 @@ body{
             box-shadow: 0 0 0 2px #ad8ca5;
         }
         &:active{
+            -moz-outline: none;
+            -webkit-outline: none;
+            -o-outline: none;
             transform: scale(0.7);
             transition: 0.2s;
             outline: 0;

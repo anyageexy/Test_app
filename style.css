@@ -92,6 +92,9 @@ body {
       transition: 0.4s;
       box-shadow: 0 0 0 2px #ad8ca5; }
     .action__user .button__action:active {
+      -moz-outline: none;
+      -webkit-outline: none;
+      -o-outline: none;
       transform: scale(0.7);
       transition: 0.2s;
       outline: 0;
