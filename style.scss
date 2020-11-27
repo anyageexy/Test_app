@@ -23,6 +23,7 @@ body{
     margin: 0 auto;
 }
 .start{
+    outline: none !important;
     background-color: #ad8ca5;
     color: $text__user;
     width: 250px;
@@ -56,11 +57,14 @@ body{
     
 }
 .answer{
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom:50px;
     #answer{
+        user-select: none;
+        outline: none !important;
         font-size: 20px;
         background-color: #ffffffe0;
         border:none;
@@ -82,20 +86,26 @@ body{
     margin: 0 auto;
     
     .button__action{
+        text-decoration: none;
+        outline: none !important;
+        margin-top:20px;
+        margin-bottom:20px;
         background-color: #ad8ca5;
         color:#ffffffe0;
         width: 80px;
-    height: 50px;
-    border-radius: 5px;
-    font-size: 15px;
-    border: none;
-    text-transform: uppercase;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 15px;
+        border: none;
+        text-transform: uppercase;
         &:hover{
             cursor: pointer;
-            //border:3px solid #c4a3bb;
-            //background-color: #ffffffe0;
-            transition: 0.1s;
-            font-size: 20px;
+            transition: 0.4s;
+            box-shadow: 0 0 0 2px #ad8ca5;
+        }
+        &:active{
+            transform: scale(0.7);
+            transition: 0.2s;
         }
     }
 }
@@ -120,6 +130,7 @@ body{
     justify-content: center;
 }
 .restart{
+    outline: none !important;
     background-color: #ad8ca5;
         color:#ffffffe0;
         width: 200px;
@@ -128,4 +139,13 @@ body{
     font-size: 20px;
     border: none;
     text-transform: uppercase;
+    &:hover{
+        cursor: pointer;
+        transition: 0.4s;
+        box-shadow: 0 0 0 2px #ad8ca5;
+    }
+    &:active{
+        transform: scale(0.7);
+        transition: 0.2s;
+    }
 }
