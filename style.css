@@ -53,11 +53,10 @@ body {
   justify-content: center;
   padding-bottom: 50px; }
   .answer #answer {
-    user-select: none;
     outline: none !important;
     font-size: 20px;
     background-color: #ffffffe0;
-    border: transparent;
+    border: none;
     width: 500px;
     height: 50px;
     border-radius: 5px;
@@ -73,6 +72,7 @@ body {
   justify-content: space-evenly;
   margin: 0 auto; }
   .action__user .button__action {
+    user-select: none;
     text-decoration: none;
     outline: none !important;
     margin-top: 20px;
